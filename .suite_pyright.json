@@ -1,0 +1,1 @@
+{"typeCheckingMode": "basic", "include": ["optimization_benchmark.py", ".opfunu_typecheck.py"], "venvPath": ".", "venv": ".venv"}

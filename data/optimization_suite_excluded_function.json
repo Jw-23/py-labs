@@ -1,0 +1,48 @@
+{
+  "opfunu_version": "1.0.1",
+  "exclusions": [
+    {
+      "opfunu_version": "1.0.1",
+      "function": "F102014",
+      "ndim": 10,
+      "claimed_optimum": 1000.0,
+      "counterexample_x": [
+        93.87580834689855,
+        -36.92462555639938,
+        -22.946989153978617,
+        -0.705858264197726,
+        -52.354586113190635,
+        45.26162146842073,
+        0.18838398588519922,
+        93.05988297753144,
+        0.1556883900968451,
+        35.11376230643184
+      ],
+      "counterexample_value": -572.5441121831136,
+      "within_default_bounds": true,
+      "reason": "Observed value below claimed global optimum; excluded from primary benchmark",
+      "replacement": "F62014 (shifted and rotated Weierstrass)"
+    },
+    {
+      "function": "F172014",
+      "ndim": 10,
+      "claimed_optimum": 1700.0,
+      "counterexample_x": [
+        27.463415896300006,
+        -81.83729139116126,
+        31.10462554952869,
+        -38.91446987677634,
+        -79.09991782314681,
+        5.011023801732651,
+        26.288278838791427,
+        -42.84509677852617,
+        65.03092264160034,
+        -83.66002082065522
+      ],
+      "counterexample_value": 1537.2526145888032,
+      "within_default_bounds": true,
+      "reason": "Uses the same defective modified Schwefel implementation; excluded in all dimensions",
+      "replacement": "F192014 Hybrid Function 3"
+    }
+  ]
+}
